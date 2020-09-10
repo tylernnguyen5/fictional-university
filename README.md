@@ -15,6 +15,7 @@ Most of the universities out there have a website. Therefore I took that as an i
 
 - Converting static HTML to work with WordPress
 - Creating custom post types, fields and plugins
+- Limiting posts
 - Establishing relationships between posts and pages 
 - Using WordPress REST API with Ajax and also building custom routes
 - Working with JSON data and different request methods
@@ -39,13 +40,10 @@ Most of the universities out there have a website. Therefore I took that as an i
 - `wp-content/plugins/my-first-amazing-plugin.php` is where I have my custom plugin
 - For custom post type declarations, visit `wp-content/mu-plugins/university-post-types.php`
 
----
-
 ## Demo
 
-![demo](/screenshots/demo.jpg)
+![demo](/screenshots/demo.gif)
 
----
 
 ## Languages, technologies and tools that I used
 
