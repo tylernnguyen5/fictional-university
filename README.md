@@ -32,10 +32,10 @@ Most of the universities out there have a website. Therefore I took that as an i
 
 - Most of the important files lie in `wp-content/themes/fictional-university-theme`
 - Inside `inc` directory are the files I wrote for custom route
-- The `js/scripts.js` imports all the Javascript files located at `js/modules`. For the version of jQuery-free JavaScript files, visit `modules/jquery-free` and import them in `js/scripts.js`
-- `template-parts` directory contains templates for display contents in different pages such as archive and front pages
+- The `js/scripts.js` imports all the Javascript files located at `js/modules`. For the jQuery-free version of JavaScript files, visit `modules/jquery-free` and import them in `js/scripts.js`
+- `template-parts` directory contains templates for displaying contents in different pages such as archive and front pages
 - `functions.php` contains implementation for working with WordPress hooks and filters
-- Beside the live search feature, `search.php`, `page-search.php` and `searchform.php` are provided for non-JS search feature if JavaScript is not enabled for a browser
+- Beside the live search feature, `search.php`, `page-search.php` and `searchform.php` are provided for non-JS search feature if JavaScript is not enabled for some browsers
 
 - `wp-content/plugins/my-first-amazing-plugin.php` is where I have my custom plugin
 - For custom post type declarations, visit `wp-content/mu-plugins/university-post-types.php`
