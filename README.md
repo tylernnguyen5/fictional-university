@@ -28,7 +28,7 @@ Most of the universities out there have a website. Therefore I took that as an i
 - Using templates for less duplication
 - Using Google Map APIS
 
-# Overall structure of the project
+## Overall structure of the project
 
 - Most of the important files lie in `wp-content/themes/fictional-university-theme`
 - Inside `inc` directory are the files I wrote for custom route
