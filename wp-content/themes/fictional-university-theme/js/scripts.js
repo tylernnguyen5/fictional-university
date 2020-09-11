@@ -7,6 +7,9 @@ import GoogleMap from "./modules/GoogleMap"
 import Search from "./modules/Search"
 import MyNotes from "./modules/MyNotes"
 import Like from "./modules/Like"
+// import Search from "./modules/jquery-free/Search-Without-jQuery"
+// import MyNotes from "./modules/jquery-free/MyNotes-Without-jQuery"
+// import Like from "./modules/jquery-free/Like-Without-jQuery"
 
 
 // Instantiate a new object using our modules/classes

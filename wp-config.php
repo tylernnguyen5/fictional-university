@@ -26,9 +26,9 @@ if (strstr($_SERVER['SERVER_NAME'], 'fictional-university.local')) {
 	define('DB_PASSWORD', 'root');
 	define('DB_HOST', 'localhost');
 } else {		// public host
-	define('DB_NAME', 'db56vur9n3g54s');
-	define('DB_USER', 'unmwba2acmjs2');
-	define('DB_PASSWORD', 'pleasedonthackme2020');
+	define('DB_NAME', 'dbcnqa5be86t4y');
+	define('DB_USER', 'ufpwn6p2svhu3');
+	define('DB_PASSWORD', 'g2e8p2aj7sxz');
 	define('DB_HOST', '127.0.0.1');
 }
 

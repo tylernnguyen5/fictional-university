@@ -11,6 +11,8 @@ Most of the universities out there have a website. Therefore I took that as an i
 
 *The website is hosted with SiteGround. Click [here](http://tylern1.sgedu.site/) to visit.*
 
+*My startup hosting plan is expired on Dec 9, 2020*
+
 ## Some of the things I learned from this project
 
 - Converting static HTML to work with WordPress
@@ -26,7 +28,8 @@ Most of the universities out there have a website. Therefore I took that as an i
 - Private user generated content
 - Escaping input to prevent malicious code
 - Using templates for less duplication
-- Using Google Map APIS
+- Using Google Map API
+- Setting up a continuous deployment with SiteGround and DeployHQ
 
 ## Overall structure of the project
 
@@ -54,3 +57,4 @@ Most of the universities out there have a website. Therefore I took that as an i
 - [Local](https://localwp.com/)
 - Postman
 - SiteGround 
+- [DeployHQ](https://deployhq.com)

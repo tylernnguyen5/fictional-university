@@ -5,9 +5,9 @@ require get_theme_file_path('/inc/like-route.php');
 
 // ==============================================================
 
-add_action('rest_api_init', 'universit_custom_rest');
+add_action('rest_api_init', 'university_custom_rest');
 
-function universit_custom_rest()
+function university_custom_rest()
 {
   // Add author name to the response
   register_rest_field('post', 'authorName', array(
@@ -75,8 +75,8 @@ function university_files()
     wp_enqueue_script('main-university-js', 'http://localhost:3000/bundled.js', NULL, '1.0', true);
   } else {  // Running live on a public domain
     wp_enqueue_script('our-vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.9678b4003190d41dd438.js'), NULL, '1.0', true);
-    wp_enqueue_script('main-university-js', get_theme_file_uri('/bundled-assets/scripts.09d5ee7db4811ad83753.js'), NULL, '1.0', true);
-    wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.09d5ee7db4811ad83753.css'));
+    wp_enqueue_script('main-university-js', get_theme_file_uri('/bundled-assets/scripts.2e714d82da3b3ed85760.js'), NULL, '1.0', true);
+    wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.2e714d82da3b3ed85760.css'));
   }
 
   // Set up dynamic root url
@@ -190,7 +190,7 @@ add_action('login_enqueue_scripts', 'ourLoginCSS');
 
 function ourLoginCSS()
 {
-  wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.09d5ee7db4811ad83753.css'));
+  wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.2e714d82da3b3ed85760.css'));
   wp_enqueue_style('custom-google-font', 'https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i');
 }
 
@@ -220,5 +220,15 @@ function makeNotePrivate($data, $postarr) {
 
   return $data;
 }
+
+// ==============================================================
+
+add_filter('ai1wm_exclude_content_from_export', 'ignoreCertainFiles');
+
+function ignoreCertainFiles($exclude_filters) {
+  $exclude_filters[] = 'themes/fictional-university-theme/node_modules';
+
+  return $exclude_filters;
+};
 
 ?>
