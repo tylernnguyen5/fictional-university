@@ -66,6 +66,8 @@ define('NONCE_SALT',       'BMrFdZjrsjyUgFQoqdTNFOu/+AOmBCD/zZoUtrv0wpHuGNeMxu14
 $table_prefix = 'wp_';
 
 
+// Increase PHP Memory Limit
+define('WP_MEMORY_LIMIT', '96M');
 
 
 /* That's all, stop editing! Happy publishing. */
