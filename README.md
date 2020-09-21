@@ -9,9 +9,13 @@ Most of the universities out there have a website. Therefore I took that as an i
 - Note-taking feature (private between users)
 - Open registration
 
+## Live Demo
+
 *The website is hosted with SiteGround. Click [here](http://tylern1.sgedu.site/) to visit.*
 
 *My startup hosting plan is expired on Dec 9, 2020*
+
+![demo](/screenshots/demo.gif)
 
 ## Some of the things I learned from this project
 
@@ -42,11 +46,6 @@ Most of the universities out there have a website. Therefore I took that as an i
 
 - `wp-content/plugins/my-first-amazing-plugin.php` is where I have my custom plugin
 - For custom post type declarations, visit `wp-content/mu-plugins/university-post-types.php`
-
-## Demo
-
-![demo](/screenshots/demo.gif)
-
 
 ## Languages, technologies and tools that I used
 
